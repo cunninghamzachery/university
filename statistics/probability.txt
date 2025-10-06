@@ -1,0 +1,56 @@
+P(A) = Probability of Event A
+0 <= P(A) <= 1
+The set of all possible outcomes must have a probability of 1
+
+P(A^c) = P(not A) it's the complement of A
+
+Complement Rule:
+P(A)+P(A^c) = 1
+P(A^c) = 1 - P(A)
+
+P(A) + P(not A) = 1
+P(not A) = 1 - P(A)
+
+
+Addition Rule:
+P(A or B) = P(A) + P(B) if A and B are disjoint (if there's no overlap)
+
+P(A) + P(B) - P(A and B) if A and B are not disjoint (if there's overlap)
+
+
+with replacement(place the drawn card back in the deck) 
+without replacement(total size of set is lowered)
+Independent: the second event is independent from the first event
+P(Ace and Heart) = P(Ace) * P(Heart)
+
+
+Independence: do previous events affect future events
+
+if P(B) == P(B|A): independent
+if P(B) != P(B|A): dependent
+
+
+Let "E" represent the current event
+Let "P" represent the previous event, if it exists
+
+    If an event occurs independently, continue with P(E)
+
+    If an event occurs with dependence, continue with P(E|P)
+
+        P(E|P) means E given P has occurred
+
+        example: drawing numbers when playing bingo, since the numbers aren't placed back into the container, the set size decreases incrementally
+
+
+if disjoint, use or, not exclusive or
+
+
+
+P(A or B)  = P(A) + P(B)
+
+P(A and B) = P(A) * P(B) 
+
+P(A xor B) = P(A or B) - P(A and B)
+
+P(not A)   = 1 - P(A)
+
